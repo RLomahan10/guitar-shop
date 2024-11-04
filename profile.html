@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="icon"
+			href="./assets/icons/favicon.ico"
+			sizes="16x16 32x32 48x48 64x64" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<link rel="stylesheet" href="./css/components.css" />
+		<link rel="stylesheet" href="./css/profile.css" />
+		<title>Profile | Mr. Tone Guitar Shop</title>
+	</head>
+	<body class="background">
+		<nav class="navigation__bg">
+			<div class="navigation container container--xl">
+				<!-- logo, account -->
+				<div class="navigation__item">
+					<div>
+						<a href="./index.html">
+							<img
+								src="./assets/images/logo.png"
+								alt="Logo image"
+								class="navigation__logo" />
+						</a>
+					</div>
+					<div class="navigation__profile">
+						<a href="./register.html">
+							<div>
+								<img src="./assets/icons/icon_account.svg" alt="Account icon" />
+							</div>
+						</a>
+						<p>
+							Welcome,
+							<strong
+								><a href="./profile.html" class="nav-link"
+									>RUSSEL IGNACIO</a
+								></strong
+							>!
+						</p>
+					</div>
+				</div>
+				<!-- nav items -->
+				<div class="navigation__item">
+					<ul class="navigation__links">
+						<li>
+							<a href="./index.html">Home</a>
+						</li>
+						<li><a href="./shop.html">Shop</a></li>
+
+						<li class="dropdown">
+							<a href="./order.html">Order</a>
+							<div class="dropdown__content">
+								<ul class="navigation__links dropdown__links">
+									<li><a href="./place-order.html">Place Order</a></li>
+									<li><a href="./summary.html">Summary of order</a></li>
+									<li>
+										<a href="./order.html">History of orders</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+
+						<li>
+							<a href="./about.html">About Us</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<main class="main--padding">
+			<hr class="divider container--xl" />
+			<div class="profile container container--xl">
+				<div class="profile__desc">
+					<img src="./assets/images/profile.jpg" alt="" class="profile__img" />
+					<span>
+						<strong>[BIO]</strong>
+						<p>An aspiring famous musician and a skilled guitarist</p>
+					</span>
+				</div>
+				<div>
+					<h1>MY PROFILE</h1>
+                    <form>
+                        <div class="profile__info">
+                            <div class="profile__info__item">
+                                <label for="first-name">First Name:</label>
+                                <input type="text" id="first-name" name="first-name" value="Russel John" disabled />
+                            </div>
+                            <div class="profile__info__item">
+                                <label for="last-name">Last Name:</label>
+                                <input type="text" id="last-name" name="last-name" value="Ignacio" disabled />
+                            </div>
+                            <div class="profile__info__item">
+                                <label for="birthday">Birthday:</label>
+                                <input type="date" id="birthday" name="birthday" value="2023-05-25" disabled />
+                            </div>
+                        </div>
+                    </form>
+					</form>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
